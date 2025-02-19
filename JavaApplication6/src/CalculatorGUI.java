@@ -7,6 +7,7 @@
  *
  * @author Ярослав
  */
-public class CalculatorGUI {
+public class CalculatorGUI { 
+    
     
 }
