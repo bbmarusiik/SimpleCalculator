@@ -57,7 +57,10 @@ public class CalculatorGUI {
                 case '-': result = calculator.subtract(num1, num2); break;
                 case '*': result = calculator.multiply(num1, num2); break;
                 case '/': 
-
+                    if (num2 == 0) {
+                        JOptionPane.showMessageDialog(null, "Ошибка: деление на ноль!");
+                        return;
+                    }
                     result = calculator.divide(num1, num2);
                     break;
                 case '^': result = calculator.power(num1, num2); break;
