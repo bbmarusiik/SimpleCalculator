@@ -9,9 +9,8 @@ public class CalculatorGUI {
     public CalculatorGUI() {
         JFrame frame = new JFrame("Калькулятор");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(400, 400);
-        frame.setLayout(new GridLayout(3, 4));
-
+        frame.setSize(800, 400);
+        frame.setLayout(new GridLayout(2, 6));
         JLabel label1 = new JLabel("Число 1:");
         num1Field = new JTextField();
         JLabel label2 = new JLabel("Число 2:");
